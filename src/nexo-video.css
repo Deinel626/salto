@@ -1,0 +1,39 @@
+.nexo-media-section {
+  position: relative;
+  padding-top: 34px;
+  padding-bottom: 110px;
+  background: #090909;
+  color: var(--acid);
+}
+
+.nexo-video-wrap {
+  position: relative;
+  z-index: 2;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 14px;
+  border: 3px solid var(--acid);
+  background: #120d1b;
+  box-shadow: 9px 9px 0 var(--purple);
+  transform: rotate(-1deg);
+}
+
+.nexo-video {
+  display: block;
+  width: 100%;
+  max-height: 620px;
+  background: #000;
+}
+
+.nexo-video-label {
+  display: block;
+  margin-top: 11px;
+  font: 11px 'DM Mono';
+  letter-spacing: .14em;
+}
+
+@media (max-width: 760px) {
+  .nexo-media-section { padding-top: 20px; padding-bottom: 75px; }
+  .nexo-video-wrap { padding: 8px; box-shadow: 5px 5px 0 var(--purple); }
+  .nexo-video-label { font-size: 9px; }
+}
