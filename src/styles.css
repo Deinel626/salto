@@ -49,3 +49,10 @@ body:after{opacity:.28;background-image:linear-gradient(rgba(9,9,9,.42),rgba(9,9
 .form-submit:hover:not(:disabled){transform:translate(-2px,-2px) rotate(-2deg);box-shadow:9px 9px 0 #a848bf}.form-submit:disabled{opacity:.6;cursor:wait}
 .form-message{grid-column:1/-1;margin:0;padding:12px 15px;border:3px solid #110d18;font:14px 'DM Mono'}.success-message{background:var(--acid);color:#110d18}.error-message{background:#ff8a1c;color:#110d18}.registration-label .section-label{display:flex}
 @media(max-width:760px){.band-registration{padding-top:75px;padding-bottom:90px}.band-registration:before{right:-22%;top:23%;font-size:82px}.band-registration:after{right:8%;bottom:8%;font-size:54px}.registration-heading{grid-template-columns:1fr;gap:28px;margin-top:38px}.registration-heading h2{font-size:88px}.registration-intro{font-size:18px}.band-form{grid-template-columns:1fr;gap:20px}.full-field,.form-footer,.form-message{grid-column:auto}.form-footer{align-items:flex-start;flex-direction:column}.form-submit{align-self:flex-start}}
+
+@media(max-width:760px){
+  .registration-heading h2{width:100%;font-size:clamp(58px,17vw,88px);line-height:.76;letter-spacing:-.07em;transform:rotate(-2deg);transform-origin:left center}
+  .registration-heading h2 em{white-space:nowrap}
+  .ticket-section{padding-left:clamp(18px,6vw,40px);padding-right:clamp(18px,6vw,40px)}
+  .ticket-section h2{width:100%;font-size:clamp(72px,20vw,108px);line-height:.66;letter-spacing:-.07em;transform:rotate(-2deg);transform-origin:center center;overflow-wrap:normal}
+}
